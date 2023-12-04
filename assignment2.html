@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightpink;
+}
+.me{
+    text-align: center;
+    display: inline-block;
+}
+ .navbar img{
+  float:left;
+  flex:auto;
+  
+  
+  
+}
+.bar a{
+text-align: center;
+display: inline-block;
+}
+.navbar {
+    
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  display:block;
+ color:  white;        
+  text-decoration: none;
+ text-transform: uppercase;
+ padding: 14px 16px;
+}
+
+.navbar a {
+  float:left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(187, 71, 71);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.happy img{
+  width:120px;
+  height:120px;
+  
+}
+.happy{
+  font-size: 36px;  
+            text-align: center;
+            color: #fff;
+  text-shadow: 0 0 10px #00f, 0 0 20px #0f0, 0 0 30px #f00
+}
+.img2{
+  float:right;
+  flex: auto;
+}
+.img3{
+  float:left;
+  flex: auto;
+  height:20px;
+  width:20px;
+}
+.kiki{
+  margin: auto;
+  padding: 0%;
+}
+.b1{
+  height:120px;
+  width: 120px;;
+  background-color:aquamarine;
+  flex: auto;
+}
+ 
+
+.b2{
+height:125px;
+width:125px;
+ position: absolute;
+ left:140px;
+ top:1370px;
+ flex: auto;
+}
+.b3{
+height:130px;
+width:1230px;
+position: absolute;
+left:280px;
+ top:1370px;
+ flex: auto;
+}
+.b4{
+height:130px;
+width:1230px;
+position: absolute;
+left:430px;
+ top:1370px;
+ flex: auto;
+}
+.b5{
+height:130px;
+width:1230px;
+position: absolute;
+left:590px;
+ top:1370px;
+ flex: auto;
+}
+.b6{
+height:130px;
+width:1230px;
+position: absolute;
+left:590px;
+ top:1370px;
+ flex: auto;
+}
+.icons i{
+  cursor:pointer;
+  color:khaki;
+
+}
+.icons i:hover{
+color:aqua;
+
+}
+
+
+.icons i{
+    margin-right: 20px;
+      
+}
+footer{
+  background-color:rgb(199, 43, 90);
+  color:#f9f9f9;
+  text-align: center;
+  padding: 10px;
+ display:flexbox;
+  margin:0;
+}
+.box{
+  margin:0%;
+  padding: 0%;
+ display: flex; 
+ flex: auto;
+
+}
+ 
+.b1 img{
+  width:450px;
+  height:120px;
+}
+/* .b2 img{
+  width: 125px;
+  height:125px;
+  flex: auto;
+ 
+}
+.b3 img{
+  width: 130px;
+  height:130px;
+  flex: auto;
+}
+.b4 img{
+  width: 140px;
+  height:140px;
+  flex: auto;
+}
+.b5 img{
+  width: 140px;
+  height:140px;
+  flex: auto;
+  
+}
+.b6 img{
+  width: 140px;
+  height:140px;
+  flex: auto;
+}  */
+
+ 
+.footer {
+    width: 90%;
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between ;
+  }
+  .lik{
+    flex-basis: 25%;
+    padding: 10px;
+    text-align:center;
+  }
+  .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+  
+  }
+  
+  .lik h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: absolute;
+    left: 100px;
+  }
+  .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #7de211;
+    margin: 20px 0;
+    position:absolute;
+    top:2515px;
+  }
+  ul li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #211f1f;
+  }
+  .social-icons li{
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+    color: pointer;
+    
+  }
+  .fab{
+    margin-bottom: 20px;
+    font-size: 300%;
+  }
+  
+  hr{
+    width: 95%;
+    border: 0;
+    border-bottom: 1px solid #a61a1a;
+    margin: 20px auto;
+  }
+  .copyright{
+    text-align: center;
+  }
+  /* .underline{
+    width: 100px;
+    height: 5px;
+    background: #a61a1a;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+  } */
+  @media (max-width: 768px){
+    .nav content{
+        width: 50%;
+        position: absolute;
+        top: 25px;
+        right: 0;
+        z-index: 2;  
+    }
+    .content p{
+       display: block;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    .footer{
+      width: 50%;
+      top: 30px;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+ 
+  
+ 
+
+</style>
+</head>
+<body style="background-color:light plum;">
+
+<div class="navbar">
+     
+     
+            <img src="logo url.jpg">
+            
+     <div class="bar">  
+  <a href="#home">Home</a>
+ 
+  <div class="dropdown">
+    <button class="dropbtn">courses
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="form.html"method="post" target="_blank">Register</a>
+      <a href="service.html"method="post" target="_blank">Services</a>
+      <a href="detail.html"method="post" target="_blank">Details</a>
+    </div>
+  </div> 
+  
+  <a href="about.html"method="post" target="_blank">About</a>
+  <a href="contact.html"method="post" target="_blank">Contacts</a>
+</div> 
+</div>
+
+ <div class="my">
+<div class="happy">
+<h1><center>Welcome to our page... &#128522; </center><br></h1>
+</div>
+<h2>
+<div class="f1">
+ <p> <center><img src="baby-groups.jpeg"></center><br> Every parent wants their child to have the best chances and opportunities possible.
+    
+    The importance of consistent, nurturing, and responsive parenting for child well-being and future<br>success in school and in life is well-documented.
+    
+    Parenting is a hard job, and all parents need support to be the nurturing caregivers<br> and strong first teachers their children need.
+    
+    Through parenting education and community-based family programs, we are that support,<br> representing a real opportunity for children—no matter their circumstances—to learn, <br>to thrive, and to succeed<3.</p>
+   </h2>
+   </div>
+ <br>
+<h1>Courses</h1>
+<div class="img2" ><img src="Teacher.jpg "></div>
+<h3>The Diploma in ECCD aims to address the need to  prepare knowledgeable,<br> skilled and competent ECCD facilitators capable of providing care, early stimulation and learning opportunities in different ECCD programme and services in the country.<br> Specifically, the programme will address the need for qualified and professionally trained facilitators in the ECCD sector.</h3>
+<br><br> 
+<div class="kiki">
+
+  <div class="b1">
+    <img src="Group_of_babies.jpg">
+  </div>
+  <!-- <div class="b2">
+    <img src="water_play.jpg">
+    </div>
+    <div class="b3">
+      <img src="M.jpg">
+    </div>
+    <div class="b4">
+      <img src="ECCD.jpg">
+    </div>
+    <div class="b5">
+      <img src="playing.jpg">
+    </div>
+    <div class="b6">
+      <img src="Group_of_babies.jpg">
+    </div> -->
+  </div>
+ 
+</div>
+
+<!-- <div class="icons">
+   <h3>We are available on</h3> 
+  <h4>FaceBook</h4>
+  <i class="fab fa-facebook"></i>
+
+  <h4>Instagram</h4>
+  <i class="fab fa-instagram"></i>
+
+  <h4>Twitter</h4>
+  <i class="fab fa-twitter"></i>
+
+  <h4>YouTube</h4>
+  <i class="fab fa-youtube"></i>
+ 
+  <h4>whatsapp</h4>
+  <i class="fab fa-whatsapp"></i>
+</div> -->
+<br>
+<h1>History</h1>
+
+<h3>The Diploma in ECCD aims to address the need to  prepare knowledgeable,<br> skilled and competent ECCD facilitators capable of providing care, early stimulation and learning opportunities in different ECCD programme and services in the country.<br> Specifically, the programme will address the need for qualified and professionally trained facilitators in the ECCD sector.</h3>
+<br><br> 
+<footer>
+  <div class="footer">
+   <div class="lik">
+    <h4>About Center</h4>
+       <h3> <div class="underline"><span></span></div></h3>
+       <p>Learning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. 
+         The ability to learn is possessed by humans, animals, and some machines; there is also evidence for some kind of learning in certain plants.</p>
+   </div>
+   <div class="lik">
+    <h4>Location</h4>
+       <h3> <div class="underline"><span></span></div></h3>
+       <p> thimphu bhutan</p>
+       <p> chubachu</p>
+       <!-- <p class="email-id">Enchanting@gmail.com</p> -->
+       <h4>1734568</h4>
+   </div>
+   <div class="lik">
+       <h3><div class="underline"><span></span></div></h3>
+       <ul>
+           <h4>Links</h4>
+           <li><a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>  
+           <li><a href="#">courses</a></li>
+           <li><a href="#">contract</a></li>
+       </ul>
+   </div>
+   <div class="social icons">
+       <ul>
+        <h4>Special Contacts</h4>
+     <li><i class="fab fa-whatsapp"></i>Whatsapp</li>
+     <li><i class="fab fa-facebook"></i>Facebook</li>
+     <li><i class="fab fa-twitter"></i>Twitter</li>
+   </ul>
+   </div>
+  </div>
+  <hr>
+  <p class="copyright"> www.Enchanting Center.com</p>
+  </footer>
+
+
+
+</div>
+</body>
+</html>

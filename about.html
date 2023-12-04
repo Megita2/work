@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    height: 50px;
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-links li {
+    float: left;
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    background-color: #444;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        position: relative;
+    }
+
+    .logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .nav-links {
+        float: none;
+        text-align: center;
+    }
+
+    .nav-links li {
+        display: block;
+        float: none;
+    }
+}
+.sub{
+    text-align: center;
+    display: flex;
+    margin-left:50px;
+}
+.sub1{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    margin-left:20px;
+    
+    width: 320px;
+  height: 50px;
+  padding:10px;
+  
+  
+   
+
+}
+.B1{
+   display: flex; 
+   margin:20px;
+   border:black;
+   margin-left:20px;
+  
+   
+}
+.B1 img{
+    height:180px;
+    width: 200px;
+    display:flex;
+    position:absolute;
+    right:500px;
+    
+}
+@media (max-width: 768px) {
+    .sub, .sub1, .B1 {
+        margin-left: 0;  
+    }
+
+    .sub1 {
+        width: 100%;  
+    }
+
+    .B1 {
+        margin-left: 20px;  
+    }
+    .B1 img {
+        height:180px;
+        width: 200px; 
+        right:500px; 
+        display: flex;
+    }
+}
+.we{
+    display: flex; 
+   margin:20px;
+    
+   margin-left:400px; 
+}
+.we img{
+    height:100px;
+    width: 200px;
+    display:flex;
+    position:absolute;
+    left:80px;
+}
+@media (max-width: 600px) {
+    .we {
+        margin-left: 20px; 
+    }
+
+    .we img {
+        height: 80px; 
+        width: 160px; 
+        left: 20px; 
+    }
+}
+      
+        footer{
+  background-color:rgb(199, 43, 90);
+  color:#f9f9f9;
+  text-align: center;
+  padding: 10px;
+ display:flexbox;
+  margin:0;
+}
+.box{
+  margin:0%;
+  padding: 0%;
+ display: flex; 
+ flex: auto;
+
+}
+    .footer {
+    width: 90%;
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between ;
+  }
+  .lik{
+    flex-basis: 25%;
+    padding: 10px;
+    text-align:center;
+  }
+  .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+  
+  }
+  
+  .lik h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: absolute;
+    left: 100px;
+  }
+  .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #7de211;
+    margin: 20px 0;
+    position:absolute;
+    top:2515px;
+  }
+  ul li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #211f1f;
+  }
+  .social-icons li{
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+    color: pointer;
+    
+  }
+  .fab{
+    margin-bottom: 20px;
+    font-size: 300%;
+  }
+  
+  hr{
+    width: 95%;
+    border: 0;
+    border-bottom: 1px solid #a61a1a;
+    margin: 20px auto;
+  }
+  .copyright{
+    text-align: center;
+  }
+  /* .underline{
+    width: 100px;
+    height: 5px;
+    background: #a61a1a;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+  } */
+  @media (max-width: 768px){
+    .nav content{
+        width: 50%;
+        position: absolute;
+        top: 25px;
+        right: 0;
+        z-index: 2;  
+    }
+    .content p{
+       display: block;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    .footer{
+      width: 50%;
+      top: 30px;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .b1{
+        width: 50%;
+      top: 30px;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+    </style>
+</head>
+<body>
+    <div action="assignment2.html" method="get">
+        <div class="navbar">
+            <img src="logo url.jpg" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href= "assignment2.html"method="post">Home</a></li>
+                <li><a href= "assignment2.html"method="post">Course</a></li>
+                <li><a href= "about.html"method="post">About</a></li>
+                <li><a href="contact.html"method="post">Contact</a></li>
+            </ul>
+        </div>
+        <div class="body">
+            <div class="sub">
+
+            </div>
+        </div>
+        
+    </div><br><br>
+      <div class="sub1"><H1>About</H1></div><br><br><div class="sub"><h2>Who?</h2><br></div> 
+    <div class="B1">
+       
+        <p> 
+           <center> A team of Bhutanese professionals dedicated in providing excellent web and software services.<br><img src="playing.jpg">
+             Driven by passion, the firm has been developing websites since the internet was first introduced in<br>
+              Bhutan and over the years, we have specialized in software and app development.<br>
+
+              We are based out of Changzamtok, Thimphu and virtually offered our services in and <br>
+              outside of Bhutan. Our clientele ranges from government institutions, corporations, Civil Society <br>
+              Organizations (CSOs), numerous private entities and even individual blogs.<br>
+
+              We have efficiently developed and deployed software for government offices operating at <br>
+              a national level and launched platforms for online startups.<br>
+
+              Being involved for years in the ICT industry in Bhutan and having worked with different stakeholders,<br>
+               our firm identified services which are necessary and we capitalized on the opportunities.<br></center>
+        </p>
+    </div><br>
+    <div class="we">
+        <h2><img src="Teacher1.jpg">What we <br>can provide :</h2><br>
+       <p> Professional web design service as per the client’s customized needs<br>
+        Trustworthy web hosting services which has captured numerous clients in the past few years<br>
+        Domain registration within a few minutes<br>
+        Logo and Graphics design<br>
+        Application and Software development<br>
+        Creative content write up for our esteemed clients.</p>
+    </div>
+    <footer>
+        <div class="footer">
+         <div class="lik">
+          <h4>About Center</h4>
+             <h3> <div class="underline"><span></span></div></h3>
+             <p>Learning is the process of acquiring new understanding, knowledge, <br>
+                behaviors, skills, values, attitudes, and preferences. <br>
+               The ability to learn is possessed by humans, animals, and some machines; there is<br>
+                also evidence for some kind of learning in certain plants.</p>
+         </div>
+         <div class="lik">
+          <h4>Location</h4>
+             <h3> <div class="underline"><span></span></div></h3>
+             <p> Thimphu bhutan</p>
+             <p> chubachu</p>
+             <!-- <p class="email-id">Enchanting@gmail.com</p> -->
+             <h4>1734568</h4>
+         </div> 
+         <div class="lik">
+             <h3><div class="underline"><span></span></div></h3>
+             <ul>
+                 <h4>Links</h4>
+                 <li><a href="assignment2.html"method="post">Home</a></li>
+                  <li><a href="assignment2.html"method="post">About</a></li>  
+                 <li><a href="assignment2.html"method="post">courses</a></li>
+                 <li><a href="assignment2.html"method="post">contract</a></li>
+             </ul>
+         </div>
+         <div class="social icons">
+             <ul>
+              <h4>Special Contacts</h4>
+           <li><i class="fab fa-whatsapp"></i>Whatsapp</li>
+           <li><i class="fab fa-facebook"></i>Facebook</li>
+           <li><i class="fab fa-twitter"></i>Twitter</li>
+         </ul>
+         </div>
+        </div>
+        <hr>
+        <p class="copyright"> www.Enchanting Center.com</p>
+        </footer>
+      
+      
+      
+      </div>
+   
+</body>
+</html>
+
+
